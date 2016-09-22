@@ -511,10 +511,10 @@
                             "",
                             [
                                 "#!/bin/bash -xe\n",
-                                "sudo usermod -a -G docker ec2-user",
-                                "sudo yum group install -y \"Development tools\"",
-                                "sudo yum install -y libevent-devel.x86_64",
-                                "sudo yum install -y ncurses-devel",
+                                "sudo usermod -a -G docker ec2-user\n",
+                                "sudo yum group install -y \"Development tools\"\n",
+                                "sudo yum install -y libevent-devel.x86_64\n",
+                                "sudo yum install -y ncurses-devel\n",
                                 "echo \"User data successfully completed\"\n"
                             ]
                         ]
